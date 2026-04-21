@@ -16,23 +16,6 @@ java {
 	}
 }
 
-dependencies {
-	testImplementation(kotlin("test"))
-}
-
-tasks.test {
-	useJUnitPlatform()
-}
-
-tasks.register<JavaExec>("texttest") {
-	description = "Allow you to run text-based approval tests with texttest"
-	group = JavaBasePlugin.BUILD_TASK_NAME
-	mainClass.set("com.gildedrose.TexttestFixtureKt")
-	classpath = sourceSets["test"].runtimeClasspath
-	args("30")
-}
-
-
 application {
 	mainClass.set("com.gildedrose.TexttestFixtureKt")
 }
