@@ -10,11 +10,6 @@ repositories {
 	mavenCentral()
 }
 
-java {
-	toolchain {
-		languageVersion = JavaLanguageVersion.of(8)
-	}
-}
 
 application {
 	mainClass.set("com.gildedrose.TexttestFixtureKt")

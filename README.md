@@ -4,7 +4,7 @@ See [GildedRoseRequirements.md](GildedRoseRequirements.md) for the problem descr
 
 ## Prerequisites
 
-A JDK (version 8 or later). The Gradle wrapper handles everything else — no Gradle installation needed.
+A JDK. The Gradle wrapper handles everything else — no Gradle installation needed.
 
 ## Run the text fixture (30 days)
 
