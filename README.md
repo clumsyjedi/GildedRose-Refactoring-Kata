@@ -6,16 +6,16 @@ See [GildedRoseRequirements.md](GildedRoseRequirements.md) for the problem descr
 
 A JDK (version 8 or later). The Gradle wrapper handles everything else — no Gradle installation needed.
 
-## Run the TextTest approval tests
-
-```
-./start_texttest.sh
-```
-
 ## Run the text fixture (30 days)
 
 ```
 ./gradlew run
+```
+
+## Run the TextTest approval tests
+
+```
+./start_texttest.sh
 ```
 
 ## Run with a custom number of days
